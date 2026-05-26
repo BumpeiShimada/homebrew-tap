@@ -1,8 +1,8 @@
 class Mdpoke < Formula
   desc "Terminal Markdown viewer for poking around long Markdown documents"
   homepage "https://github.com/BumpeiShimada/mdpoke"
-  url "https://github.com/BumpeiShimada/mdpoke/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "78bc673fe9622b26f702fc7c1a00ab00111ff9047701283f59b10f6e76701d58"
+  url "https://github.com/BumpeiShimada/mdpoke/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "7af15e1ba4855a0c2ccd2f358c1db809ed61f6b3d1c5c4445be9117d56e64a76"
   license "MIT"
 
   depends_on "go" => :build
@@ -16,4 +16,3 @@ class Mdpoke < Formula
     assert_match "Usage:", shell_output("#{bin}/mdpoke")
   end
 end
-
