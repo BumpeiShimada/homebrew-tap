@@ -1,8 +1,8 @@
 class Mdpoke < Formula
   desc "Terminal Markdown viewer for poking around long Markdown documents"
   homepage "https://github.com/BumpeiShimada/mdpoke"
-  url "https://github.com/BumpeiShimada/mdpoke/archive/refs/tags/v0.1.2.tar.gz"
-  sha256 "bd372580f8ca708cd63643ae0051a263deb230a9ca65d501e626b79aac82bad5"
+  url "https://github.com/BumpeiShimada/mdpoke/archive/refs/tags/v0.1.4.tar.gz"
+  sha256 "7aa4cbb877d074cfbeaf34b5936923f10c53a979f62f26cb79ffada4e303a5ac"
 
   license "MIT"
 
@@ -14,6 +14,6 @@ class Mdpoke < Formula
 
   test do
     (testpath/"sample.md").write("# Hello\n\nWorld\n")
-    assert_match "Usage:", shell_output("#{bin}/mdpoke 2>&1", 1)
+    assert_match "Usage:", shell_output(bin/"mdpoke")
   end
 end
