@@ -1,8 +1,8 @@
 class Mdpoke < Formula
   desc "Terminal Markdown viewer for poking around long Markdown documents"
   homepage "https://github.com/BumpeiShimada/mdpoke"
-  url "https://github.com/BumpeiShimada/mdpoke/archive/refs/tags/v1.0.2.tar.gz"
-  sha256 "526a6734898ca34e6fe9b1a1c9d487de5324909559a8678111dd8e61009c7eae"
+  url "https://github.com/BumpeiShimada/mdpoke/archive/refs/tags/v1.1.0.tar.gz"
+  sha256 "9033a3e3598610258f3848ce1c9be8ad002a4c431be2648ee1c1fcd74c1e3d21"
 
   license "MIT"
 
